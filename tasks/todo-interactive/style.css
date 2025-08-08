@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #e1e1e1;
+    padding: 10px 15px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+li.completed {
+    background-color: #d0fed0;
+}
+
+.checkmark {
+    display: none;
+    font-weight: bold;
+    color: green;
+}
+
+li.completed .checkmark {
+    display: inline;
+}
